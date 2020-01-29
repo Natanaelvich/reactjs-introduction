@@ -23,6 +23,7 @@ export default class Repsitory extends Component {
 
     this.setState({ loading: true });
 
+    // get repo and issues
     const [repository, issues] = await Promise.all([
       api.get(`/repos/${repoName}`),
       api.get(`/repos/${repoName}/issues`, {
