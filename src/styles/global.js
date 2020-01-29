@@ -14,7 +14,8 @@ html,body,#root{
 
 body { 
     background : #7159c1;
-    -webkit-font-smoothing:antialiased !important;
+    -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
 }
 
 body,input,button{

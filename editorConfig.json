@@ -1,0 +1,39 @@
+{
+  // These are all my auto-save configs
+  // turn it off for JS and JSX, we will do this via eslint
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // tell the ESLint plugin to run on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  // Optional BUT IMPORTANT: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
+  "prettier.disableLanguages": ["javascript", "javascriptreact"],
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.minimap.enabled": false,
+  "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+  "powermode.enabled": true,
+  "powermode.presets": "flames",
+  "debug.node.showUseWslIsDeprecatedWarning": false,
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "workbench.startupEditor": "newUntitledFile",
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "workbench.colorTheme": "One Dark Pro",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.validate.enable": false,
+  "window.zoomLevel": -1,
+  "editor.suggestSelection": "first",
+  "editor.formatOnSave": true
+}
